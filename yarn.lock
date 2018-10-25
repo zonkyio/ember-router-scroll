@@ -2686,11 +2686,17 @@ debug@2.6.9, debug@^2.1.0, debug@^2.1.1, debug@^2.1.2, debug@^2.1.3, debug@^2.2.
   dependencies:
     ms "2.0.0"
 
-debug@3.1.0, debug@^3.0.0, debug@^3.1.0, debug@~3.1.0:
+debug@3.1.0, debug@^3.1.0, debug@~3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/debug/-/debug-3.1.0.tgz#5bb5a0672628b64149566ba16819e61518c67261"
   dependencies:
     ms "2.0.0"
+
+debug@^4.0.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.0.tgz#373687bffa678b38b1cd91f861b63850035ddc87"
+  dependencies:
+    ms "^2.1.1"
 
 debuglog@^1.0.1:
   version "1.0.1"
@@ -3065,15 +3071,15 @@ ember-cli-uglify@^2.0.0:
     broccoli-uglify-sourcemap "^2.1.1"
     lodash.defaultsdeep "^4.6.0"
 
-ember-cli-update@^0.27.0:
-  version "0.27.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-update/-/ember-cli-update-0.27.0.tgz#b159bf7d3a05e4e23bf08079dfba36688d30cd49"
+ember-cli-update@^0.27.3:
+  version "0.27.3"
+  resolved "https://registry.yarnpkg.com/ember-cli-update/-/ember-cli-update-0.27.3.tgz#c7e9acaf4af7a8ee8086984467a5cf8414c87af5"
   dependencies:
     cpr "^3.0.1"
-    debug "^3.0.0"
+    debug "^4.0.0"
     denodeify "^1.2.1"
     execa "^1.0.0"
-    git-diff-apply "^0.10.0"
+    git-diff-apply "^0.10.2"
     inquirer "^6.1.0"
     merge-package.json "^2.0.0"
     npx "^10.0.1"
@@ -4241,11 +4247,11 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-git-diff-apply@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/git-diff-apply/-/git-diff-apply-0.10.0.tgz#48fd11947bd106b8a81c3db111f1e1c9bd8c7791"
+git-diff-apply@^0.10.2:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/git-diff-apply/-/git-diff-apply-0.10.2.tgz#d874994dc4db8004ce5d4d2ec47810ccc2779d1c"
   dependencies:
-    debug "^3.0.0"
+    debug "^4.0.0"
     denodeify "^1.2.1"
     fixturify "^0.3.4"
     fs-extra "^7.0.0"
@@ -6119,7 +6125,7 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
-ms@^2.0.0:
+ms@^2.0.0, ms@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.1.tgz#30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a"
 
