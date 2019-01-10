@@ -2870,9 +2870,10 @@ electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.92:
   version "1.3.95"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.95.tgz#79fac438813ca7f3db182a525c2ab432934f6484"
 
-ember-app-scheduler@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/ember-app-scheduler/-/ember-app-scheduler-1.0.5.tgz#2a12c36408c24ecee966608f7a3558267efe4740"
+ember-app-scheduler@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/ember-app-scheduler/-/ember-app-scheduler-1.0.6.tgz#b7972c5ae51643d41769dba40ef96e0cc188f553"
+  integrity sha512-wKmf/Tu9A70txzVkqbXo5/o6qVT+tL+ydRCayyKKT8z4s4xhzwgL37FPHkd3WEkGAxanxPML/MOpkACK08KuCw==
   dependencies:
     "@types/ember" "^3.0.23"
     "@types/rsvp" "^4.0.2"
