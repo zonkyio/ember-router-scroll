@@ -620,9 +620,10 @@
   version "0.7.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/is/-/is-0.7.0.tgz#9a06f4f137ee84d7df0460c1fdb1135ffa6c50fd"
 
-"@types/ember@^3.0.23":
-  version "3.0.26"
-  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-3.0.26.tgz#54381f59c63e8860de9ea0c40defb519f117b0b3"
+"@types/ember@^3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@types/ember/-/ember-3.1.0.tgz#3c44b846c41a1340bc823910f9222746585b3314"
+  integrity sha512-RHP/N7k81XIS16DLF/yTfnWEKdFFftRAUgjWO1oKNJ5ho3+iTH3vVq8u11PrhaHd+FHXNB1XKV20d5o1KEOnUQ==
   dependencies:
     "@types/ember__application" "*"
     "@types/ember__array" "*"
@@ -639,7 +640,6 @@
     "@types/ember__string" "*"
     "@types/ember__test" "*"
     "@types/ember__utils" "*"
-    "@types/handlebars" "*"
     "@types/htmlbars-inline-precompile" "*"
     "@types/jquery" "*"
     "@types/rsvp" "*"
@@ -2990,11 +2990,12 @@ electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.92:
   version "1.3.95"
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.95.tgz#79fac438813ca7f3db182a525c2ab432934f6484"
 
-ember-app-scheduler@^1.0.5:
-  version "1.0.5"
-  resolved "https://registry.yarnpkg.com/ember-app-scheduler/-/ember-app-scheduler-1.0.5.tgz#2a12c36408c24ecee966608f7a3558267efe4740"
+ember-app-scheduler@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/ember-app-scheduler/-/ember-app-scheduler-1.0.7.tgz#10c23cb638cdda9e7793d642086da45d70922838"
+  integrity sha512-lJ78fwst3xyAi0hp1VKextM167SOmgzb2Iz6zRacbkBt2tdJysv0ytS/SMoskrlkReKyWtqEhpf/cRSQd19ygg==
   dependencies:
-    "@types/ember" "^3.0.23"
+    "@types/ember" "^3.1.0"
     "@types/rsvp" "^4.0.2"
     ember-cli-babel "^7.1.3"
     ember-compatibility-helpers "^1.1.2"
